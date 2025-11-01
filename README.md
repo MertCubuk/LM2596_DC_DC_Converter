@@ -15,7 +15,7 @@ Amaç, kompakt ve üretime uygun bir modül üzerinden güç elektroniği prensi
 | **Maksimum Akım**        | 3 A *(soğutma koşuluna bağlı)*                    |
 | **Verim**                | %80 – %92                                         |
 | **Anahtarlama Frekansı** | 150 kHz                                           |
-| **Endüktör**             | 33 µH, ferrit çekirdekli, Isat ≥ 3 A              |
+| **Endüktör**             | 33 µH, Isat ≥ 3 A                                 |
 | **Diyot**                | Schottky, 60 V / 5 A *(örnek: SS54, ACDBA560-HF)* |
 | **Kapasitörler**         | Giriş: 100 µF / 63 V, Çıkış: 220 µF / 63 V        |
 | **Kart Boyutu**          | ~50 mm × 30 mm                                    |
@@ -77,7 +77,7 @@ Amaç, kompakt ve üretime uygun bir modül üzerinden güç elektroniği prensi
 
 ## 🧠 Notlar
 
-- R1 = 5 kΩ sabit, R2 = R1 × (VOUT/1.23 – 1) formülüne göre çıkış gerilimi ayarlanır.
+- R1 = 5 kΩ sabit, R2 = R1 × (VOUT/1.23) formülüne göre çıkış gerilimi ayarlanır.
 - Yüksek akımlarda termal verimi artırmak için kalın bakır yollar veya daha büyük endüktör önerilir.
 - Tüm komponent tasarımları ve 3D modeller, Celestial Altium Library kullanılarak oluşturulmuştur.
 (All component designs and models are created using the Celestial Altium Library.)
